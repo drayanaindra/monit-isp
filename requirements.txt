@@ -1,0 +1,5 @@
+python-crontab==2.0.1
+python-dateutil==2.4.2
+six==1.10.0
+speedtest-cli==0.3.4
+wheel==0.26.0
