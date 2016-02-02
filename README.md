@@ -8,4 +8,4 @@ Clone this project and install requirement.txt
 And custom like what you need
 
 
-Thank brur.. :p
+Thanks brur.. :p

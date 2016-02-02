@@ -49,7 +49,7 @@ to_int_bit = float(get_down_bit.group(1))
 # conver to kbps
 convert_to_kbps = to_int_bit * 1024
 
-if convert_to_kbps > MIN_DOWN:
+if convert_to_kbps <= MIN_DOWN:
   print 'send mail'
   attachment = open(FULL_PATH_DIR, "rb")
   msg.attach(MIMEText(body, 'plain'))
